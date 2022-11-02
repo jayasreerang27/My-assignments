@@ -50,7 +50,7 @@ public class RedBus {
 		
 		//Thread.sleep(3000);
 		
-		//driver.findElement(By.xpath("//input[@id='bt_SLEEPER']")).click();
+		driver.findElement(By.xpath("//input[@id='bt_SLEEPER']")).click();
 		
 		String text2 = driver.findElement(By.xpath("(//div[@class ='travels lh-24 f-bold d-color')[2]]")).getText();
 		
